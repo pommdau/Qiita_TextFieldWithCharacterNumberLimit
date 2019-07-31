@@ -14,7 +14,6 @@
 
 @implementation CustomTextFieldFormatter
 - (id)init {
-    
     if(self = [super init]){
         [self setCharLimit:3];
     }
@@ -22,40 +21,34 @@
 }
 
 /**
- @brief 無効な文字を入力しないようにする
- @param partialStringPtr 検証する新しい文字列
- @param proposedSelRangePtr 文字列が受け入れられるか置き換えられる場合に使用される選択範囲。
- @param origString 変更が提案される前の元の文字列。
- @param origSelRange 変更が行われる選択範囲。
+ @brief 部分文字列が有効かどうか - ユーザがキーを押す際に呼ばれる
+ @param partialString 現在セル内にあるテキスト
+ @param newString partialStringの変更が必要なときの置換文字列
+ @return 部分文字列が有効かどうか
  */
-- (BOOL)isPartialStringValid:(NSString **)partialStringPtr
-       proposedSelectedRange:(NSRangePointer)proposedSelRangePtr
-              originalString:(NSString *)origString
-       originalSelectedRange:(NSRange)origSelRange
+- (BOOL)isPartialStringValid:(NSString *)partialString
+            newEditingString:(NSString **)newString
             errorDescription:(NSString **)error {
-    // 2文字以上貼り付けがあった場合の処理
-    // TODO write...
-//    origSelRange.length
-    
-    int overLength = (int)[*partialStringPtr length] - (int)_charLimit;
-    if (overLength > 0) {
-        return NO;
-    }
-
-    if (![*partialStringPtr isEqual:[*partialStringPtr uppercaseString]]) {
-        *partialStringPtr = [*partialStringPtr uppercaseString];
-        return NO;
+    if ((int)[partialString length] > _charLimit) {
+        *newString = [partialString substringToIndex:_charLimit];
+        return NO;  // newStringでpartialStringを置換
     }
     return YES;
 }
 
-// MARK:- NSFormatterのカスタムクラス作成に必須なメソッド
-// セルのオブジェクトを文字列表現に変換（数値→文字列）
+// MARK:- NSFormatter Methods
+// NSFormatterのカスタムクラス作成に必須なメソッド
+
+/**
+ @brief セルのオブジェクトを文字列表現に変換（数値→文字列）
+ */
 - (NSString *)stringForObjectValue:(id)object {
     return (NSString *)object;
 }
 
-// 文字列をセルに関連付けられたオブジェクトに変換（文字列→数値）
+/**
+ @brief 文字列をセルに関連付けられたオブジェクトに変換（文字列→数値）
+ */
 - (BOOL)getObjectValue:(id *)object
              forString:(NSString *)string
       errorDescription:(NSString **)error {
