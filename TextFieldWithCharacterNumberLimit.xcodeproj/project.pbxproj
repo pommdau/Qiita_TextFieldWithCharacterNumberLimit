@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0FE1A2D22EE8BCF0081D617 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FE1A2C22EE8BCF0081D617 /* AppDelegate.m */; };
+		D0FE1A2F22EE8BD10081D617 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0FE1A2E22EE8BD10081D617 /* Assets.xcassets */; };
+		D0FE1A3222EE8BD10081D617 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0FE1A3022EE8BD10081D617 /* MainMenu.xib */; };
+		D0FE1A3522EE8BD10081D617 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FE1A3422EE8BD10081D617 /* main.m */; };
+		D0FE1A3F22EE8D0E0081D617 /* FirstWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FE1A3D22EE8D0E0081D617 /* FirstWindowController.m */; };
+		D0FE1A4022EE8D0E0081D617 /* FirstWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0FE1A3E22EE8D0E0081D617 /* FirstWindowController.xib */; };
+		D0FE1A4822EE8DCE0081D617 /* FirstWindowTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FE1A4722EE8DCE0081D617 /* FirstWindowTextField.m */; };
+		D0FE1A5122EE93CD0081D617 /* SecondWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FE1A4F22EE93CD0081D617 /* SecondWindowController.m */; };
+		D0FE1A5222EE93CD0081D617 /* SecondWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0FE1A5022EE93CD0081D617 /* SecondWindowController.xib */; };
+		D0FE1A5722EECD7F0081D617 /* CustomTextFieldFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FE1A5622EECD7F0081D617 /* CustomTextFieldFormatter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D0FE1A2822EE8BCF0081D617 /* TextFieldWithCharacterNumberLimit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextFieldWithCharacterNumberLimit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0FE1A2B22EE8BCF0081D617 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D0FE1A2C22EE8BCF0081D617 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D0FE1A2E22EE8BD10081D617 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0FE1A3122EE8BD10081D617 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D0FE1A3322EE8BD10081D617 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0FE1A3422EE8BD10081D617 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D0FE1A3622EE8BD10081D617 /* TextFieldWithCharacterNumberLimit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TextFieldWithCharacterNumberLimit.entitlements; sourceTree = "<group>"; };
+		D0FE1A3C22EE8D0E0081D617 /* FirstWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstWindowController.h; sourceTree = "<group>"; };
+		D0FE1A3D22EE8D0E0081D617 /* FirstWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstWindowController.m; sourceTree = "<group>"; };
+		D0FE1A3E22EE8D0E0081D617 /* FirstWindowController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstWindowController.xib; sourceTree = "<group>"; };
+		D0FE1A4622EE8DCE0081D617 /* FirstWindowTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstWindowTextField.h; sourceTree = "<group>"; };
+		D0FE1A4722EE8DCE0081D617 /* FirstWindowTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstWindowTextField.m; sourceTree = "<group>"; };
+		D0FE1A4E22EE93CD0081D617 /* SecondWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondWindowController.h; sourceTree = "<group>"; };
+		D0FE1A4F22EE93CD0081D617 /* SecondWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondWindowController.m; sourceTree = "<group>"; };
+		D0FE1A5022EE93CD0081D617 /* SecondWindowController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondWindowController.xib; sourceTree = "<group>"; };
+		D0FE1A5522EECD7F0081D617 /* CustomTextFieldFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomTextFieldFormatter.h; sourceTree = "<group>"; };
+		D0FE1A5622EECD7F0081D617 /* CustomTextFieldFormatter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTextFieldFormatter.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0FE1A2522EE8BCF0081D617 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0FE1A1F22EE8BCF0081D617 = {
+			isa = PBXGroup;
+			children = (
+				D0FE1A2A22EE8BCF0081D617 /* TextFieldWithCharacterNumberLimit */,
+				D0FE1A2922EE8BCF0081D617 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0FE1A2922EE8BCF0081D617 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0FE1A2822EE8BCF0081D617 /* TextFieldWithCharacterNumberLimit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0FE1A2A22EE8BCF0081D617 /* TextFieldWithCharacterNumberLimit */ = {
+			isa = PBXGroup;
+			children = (
+				D0FE1A5322EE94180081D617 /* FirstWindow */,
+				D0FE1A5422EE94240081D617 /* SecondWindow */,
+				D0FE1A2B22EE8BCF0081D617 /* AppDelegate.h */,
+				D0FE1A2C22EE8BCF0081D617 /* AppDelegate.m */,
+				D0FE1A2E22EE8BD10081D617 /* Assets.xcassets */,
+				D0FE1A3022EE8BD10081D617 /* MainMenu.xib */,
+				D0FE1A3322EE8BD10081D617 /* Info.plist */,
+				D0FE1A3422EE8BD10081D617 /* main.m */,
+				D0FE1A3622EE8BD10081D617 /* TextFieldWithCharacterNumberLimit.entitlements */,
+			);
+			path = TextFieldWithCharacterNumberLimit;
+			sourceTree = "<group>";
+		};
+		D0FE1A5322EE94180081D617 /* FirstWindow */ = {
+			isa = PBXGroup;
+			children = (
+				D0FE1A3C22EE8D0E0081D617 /* FirstWindowController.h */,
+				D0FE1A3D22EE8D0E0081D617 /* FirstWindowController.m */,
+				D0FE1A3E22EE8D0E0081D617 /* FirstWindowController.xib */,
+				D0FE1A4622EE8DCE0081D617 /* FirstWindowTextField.h */,
+				D0FE1A4722EE8DCE0081D617 /* FirstWindowTextField.m */,
+			);
+			path = FirstWindow;
+			sourceTree = "<group>";
+		};
+		D0FE1A5422EE94240081D617 /* SecondWindow */ = {
+			isa = PBXGroup;
+			children = (
+				D0FE1A4E22EE93CD0081D617 /* SecondWindowController.h */,
+				D0FE1A4F22EE93CD0081D617 /* SecondWindowController.m */,
+				D0FE1A5022EE93CD0081D617 /* SecondWindowController.xib */,
+				D0FE1A5522EECD7F0081D617 /* CustomTextFieldFormatter.h */,
+				D0FE1A5622EECD7F0081D617 /* CustomTextFieldFormatter.m */,
+			);
+			path = SecondWindow;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0FE1A2722EE8BCF0081D617 /* TextFieldWithCharacterNumberLimit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0FE1A3922EE8BD10081D617 /* Build configuration list for PBXNativeTarget "TextFieldWithCharacterNumberLimit" */;
+			buildPhases = (
+				D0FE1A2422EE8BCF0081D617 /* Sources */,
+				D0FE1A2522EE8BCF0081D617 /* Frameworks */,
+				D0FE1A2622EE8BCF0081D617 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextFieldWithCharacterNumberLimit;
+			productName = TextFieldWithCharacterNumberLimit;
+			productReference = D0FE1A2822EE8BCF0081D617 /* TextFieldWithCharacterNumberLimit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0FE1A2022EE8BCF0081D617 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = hikeuchi;
+				TargetAttributes = {
+					D0FE1A2722EE8BCF0081D617 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = D0FE1A2322EE8BCF0081D617 /* Build configuration list for PBXProject "TextFieldWithCharacterNumberLimit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0FE1A1F22EE8BCF0081D617;
+			productRefGroup = D0FE1A2922EE8BCF0081D617 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0FE1A2722EE8BCF0081D617 /* TextFieldWithCharacterNumberLimit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0FE1A2622EE8BCF0081D617 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0FE1A2F22EE8BD10081D617 /* Assets.xcassets in Resources */,
+				D0FE1A3222EE8BD10081D617 /* MainMenu.xib in Resources */,
+				D0FE1A4022EE8D0E0081D617 /* FirstWindowController.xib in Resources */,
+				D0FE1A5222EE93CD0081D617 /* SecondWindowController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0FE1A2422EE8BCF0081D617 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0FE1A3522EE8BD10081D617 /* main.m in Sources */,
+				D0FE1A2D22EE8BCF0081D617 /* AppDelegate.m in Sources */,
+				D0FE1A3F22EE8D0E0081D617 /* FirstWindowController.m in Sources */,
+				D0FE1A5122EE93CD0081D617 /* SecondWindowController.m in Sources */,
+				D0FE1A4822EE8DCE0081D617 /* FirstWindowTextField.m in Sources */,
+				D0FE1A5722EECD7F0081D617 /* CustomTextFieldFormatter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D0FE1A3022EE8BD10081D617 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0FE1A3122EE8BD10081D617 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0FE1A3722EE8BD10081D617 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D0FE1A3822EE8BD10081D617 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D0FE1A3A22EE8BD10081D617 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TextFieldWithCharacterNumberLimit/TextFieldWithCharacterNumberLimit.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TextFieldWithCharacterNumberLimit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.hikeuchi.TextFieldWithCharacterNumberLimit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D0FE1A3B22EE8BD10081D617 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TextFieldWithCharacterNumberLimit/TextFieldWithCharacterNumberLimit.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TextFieldWithCharacterNumberLimit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.hikeuchi.TextFieldWithCharacterNumberLimit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0FE1A2322EE8BCF0081D617 /* Build configuration list for PBXProject "TextFieldWithCharacterNumberLimit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0FE1A3722EE8BD10081D617 /* Debug */,
+				D0FE1A3822EE8BD10081D617 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0FE1A3922EE8BD10081D617 /* Build configuration list for PBXNativeTarget "TextFieldWithCharacterNumberLimit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0FE1A3A22EE8BD10081D617 /* Debug */,
+				D0FE1A3B22EE8BD10081D617 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0FE1A2022EE8BCF0081D617 /* Project object */;
+}
